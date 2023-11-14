@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:stretchColumns="1">
+
+    <TableRow android:background="#128675">
+        <TextView
+            android:padding="3dp"
+            android:layout_column="0"
+            android:text="Producto"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:padding="3dp"
+            android:layout_column="2"
+            android:text="Subtotal"
+            android:textColor="@android:color/white" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:padding="3dp"
+            android:layout_column="0"
+            android:text="Jabón de manos x 1" />
+        <TextView
+            android:padding="3dp"
+            android:layout_column="2"
+            android:text="$2" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:padding="3dp"
+            android:layout_column="0"
+            android:text="Shampoo Monster x 1" />
+        <TextView
+            android:padding="3dp"
+            android:layout_column="2"
+            android:text="$10" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:padding="3dp"
+            android:layout_column="0"
+            android:text="Pastas Duria x 2" />
+        <TextView
+            android:padding="3dp"
+            android:layout_column="2"
+            android:text="$18" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:padding="3dp"
+            android:layout_column="0"
+            android:text="Detergente Limpiadin x 1" />
+
+        <TextView
+            android:padding="3dp"
+            android:layout_column="2"
+            android:text="$13,4" />
+    </TableRow>
+    <View
+        android:layout_height="1dp"
+        android:background="@color/black" />
+
+    <TableRow>
+        <TextView
+            android:padding="3dp"
+            android:layout_column="1"
+            android:text="Subtotal"
+            android:textColor="#128675" />
+        <TextView
+            android:padding="3dp"
+            android:layout_column="2"
+            android:text="$43,4" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:padding="3dp"
+            android:layout_column="1"
+            android:text="Costo envío"
+            android:textColor="#128675" />
+        <TextView
+            android:padding="3dp"
+            android:layout_column="2"
+            android:text="$10" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:padding="3dp"
+            android:layout_column="1"
+            android:text="Cupón"
+            android:textColor="#128675" />
+        <TextView
+            android:padding="3dp"
+            android:layout_column="2"
+            android:text="-$5" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:padding="3dp"
+            android:layout_column="1"
+            android:text="Total"
+            android:textColor="#128675" />
+        <TextView
+            android:padding="3dp"
+            android:layout_column="2"
+            android:text="$48,4" />
+    </TableRow>
+</TableLayout>
